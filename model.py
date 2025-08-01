@@ -2,8 +2,8 @@ import joblib
 import streamlit as st
 import time
 
-model = joblib.load("spam_classifier.joblib")
-vec = joblib.load("vectorizer.joblib")
+model = joblib.load("alan-sms")
+vec = joblib.load("alan-vec")
 
 st.title("📩 SMS Spam Detector")
 
