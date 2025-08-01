@@ -5,7 +5,7 @@ import time
 model = joblib.load("alan-sms")
 vec = joblib.load("alan-vec")
 
-st.title("📩 SMS Spam Detector")
+st.title("📩 Spam Message Detector")
 
 user = st.text_area("Enter the SMS message")
 
