@@ -21,7 +21,7 @@ st.markdown("Check if your SMS is spam or safe")
 # Model evaluation section
 with st.expander("Model Performance Details"):
     st.markdown(f"""
-    **Evaluation Metrics (tested on {eval_metrics['test_size']} messages):**
+    **Evaluation Metrics (trained on {eval_metrics['test_size']} messages):**
     
     - ✅ **Accuracy:** {eval_metrics['accuracy']:.1%}  
       (Overall correct predictions)
