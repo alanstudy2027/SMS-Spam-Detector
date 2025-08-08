@@ -91,3 +91,4 @@ if st.button("Check SMS"):
         
         # Safety tips
 # Footer
+st.caption("Model developed by Alan Joshua")
